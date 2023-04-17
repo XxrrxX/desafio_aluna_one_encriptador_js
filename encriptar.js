@@ -1,30 +1,38 @@
 function encriptar(){
 var TE=document.getElementById("txtE").value;
 let SplitTE = TE.split('');
+var StringE;
 
 SplitTE.forEach(letra => {
 
 if (letra == "e"){
-console.log("\n	");
+
+StringE =  "\n";
 }
 
 else if (letra == "i"){
-console.log("imes");
+StringE =  "imes";
 }
 
 else if (letra == "a"){
-console.log("ai");
+StringE =  "ai";
 }
 else if (letra == "o"){
-console.log("ober");
+StringE =  "ober";
 }
 else if (letra == "u"){
-console.log("ufat");
+StringE = "ufat";
 
 }else{
-console.log(letra);
+
+StringE = letra;
+
 }
 
+console.log(StringE);
+
 });
+
+
 
 }
