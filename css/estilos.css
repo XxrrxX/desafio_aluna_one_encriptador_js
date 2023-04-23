@@ -229,6 +229,14 @@ height: 933px;
 /* Light blue/light-blue-100 */
 background: #F3F5FC
 }
+head {
+position: absolute;
+width: 375px;
+height: 96px;
+left: 0px;
+top: 0px;
+}
+
 
 
 }
