@@ -220,79 +220,62 @@ text-aling:center;
 
 /*celular 1*/
 @media (max-width: 768px){
-  
-body{
-/* Encriptador - 1 Celular */
-position: relative;
-width: 375px;
-height: 933px;
-/* Light blue/light-blue-100 */
-background: #F3F5FC
-}
-head {
-position: absolute;
-width: 375px;
-height: 96px;
-left: 0px;
-top: 0px;
+ 
+
+#logo {
+/* Logo */
+
 }
 
+#frame5{
+
+
+#p1{
+}
+
+#p2 {
+
+}
+
+#muñeco{
+
+}
+#frm1{
+
+}
+
+#exclm {
+
+}
+#txt1 {
+
+}
 #frm3{
-/* Frame 3 */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
+}
+.txt2 {
 
-position: absolute;
-width: 343px;
-height: 158px;
-left: 16px;
-top: 485px;
 
 }
 
-#frame5 {
-/* Frame 5 */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
-gap: 32px;
-
-position: absolute;
-width: 327px;
-height: 186px;
-left: 24px;
-top: 707px;
-
-/* White */
-background: #FFFFFF;
-box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-border-radius: 32px;
-/* Frame 5 */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 263px;
-height: 122px;
+#rectangle1 {
 
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+}
+
+#frm3 input{
+
+
+
+}
+
+.encriptar{
+
+}
+
+
+.desencriptar {
+
 
 }
 
