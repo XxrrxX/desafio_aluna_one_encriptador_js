@@ -220,6 +220,17 @@ text-aling:center;
 
 /*celular 1*/
 @media (min-width: 768px){
+    
+body{
+/* Encriptador - 1 Tablet */
+
+position: relative;
+width: 768px;
+height: 1174px;
+
+/* Light blue/light-blue-100 */
+background: #F3F5FC;
+}
 
 #frame5{
 /* Frame 5 */
