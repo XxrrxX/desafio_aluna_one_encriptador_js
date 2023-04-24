@@ -339,4 +339,13 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
+head{
+/* Header */
+
+position: absolute;
+width: 375px;
+height: 96px;
+left: 0px;
+top: 0px;
+}
 }
