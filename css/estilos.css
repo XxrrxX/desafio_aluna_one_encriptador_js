@@ -256,13 +256,13 @@ border-radius: 32px;
 
 }
 
-#p2{
+#p2 {
 /* Ingrese el texto aqui */
 
 position: absolute;
 width: 343px;
 height: 48px;
-left: 16px;
+left: 10%;
 top: 152px;
 
 font-family: 'Inter';
