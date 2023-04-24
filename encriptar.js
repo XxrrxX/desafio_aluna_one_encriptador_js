@@ -29,7 +29,7 @@ StringE = letra;
 
 }
 
-return("<p id='p1'>"+StringE+"</p>");
+return(<p id="p1">StringE</p>);
 
 });
 
