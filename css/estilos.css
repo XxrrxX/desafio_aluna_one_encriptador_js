@@ -293,15 +293,15 @@ border-radius: 32px;
 
 /* Auto layout */
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 gap: 24px;
 
 position: absolute;
-width: 343px;
-height: 158px;
-left: 16px;
-top: 485px;
+width: 688px;
+height: 67px;
+left: 40px;
+top: 870px;
 }
 }
