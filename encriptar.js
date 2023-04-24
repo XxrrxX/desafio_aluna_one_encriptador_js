@@ -29,7 +29,7 @@ StringE = letra;
 
 }
 
-document.write(StringE);
+return("<p class='txt1'>"+StringE+"</p>");
 
 });
 
