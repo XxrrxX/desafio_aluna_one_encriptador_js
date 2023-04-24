@@ -365,4 +365,20 @@ flex: none;
 order: 1;
 flex-grow: 1;
 }
+#frm1{
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 229px;
+height: 18px;
+left: 40px;
+top: 836px;
+}
 }
