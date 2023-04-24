@@ -33,9 +33,5 @@ StringE = letra;
 
 });
 
-$(document).redy(function(){
-var htmlinsert ='';
-htmlinsert = '<p id="p1">'+StringE+'</p>)';
-$('#frame5').Html(htmlinsert);
-});
+
 }
