@@ -28,10 +28,6 @@ StringE = letra;
 }
 var s = s + StringE;
 
-}
-
-
-
 });
 
 document.write(s);
