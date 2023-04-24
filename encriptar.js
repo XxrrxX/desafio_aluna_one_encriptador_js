@@ -31,6 +31,6 @@ var s = s + StringE;
 });
 
 var p = document.getElementById("p1");
-p.innerHTML=StringE;
+p.innerHTML=s;
 
 }
