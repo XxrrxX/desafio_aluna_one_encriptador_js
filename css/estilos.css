@@ -267,7 +267,7 @@ line-height: 150%;
 color: #0A3871;
 
 }
-#rectangle1 {
+#frame {
 /* Frame 5 */
 
 /* Auto layout */
@@ -278,13 +278,14 @@ padding: 32px;
 gap: 32px;
 
 position: absolute;
-width: 327px;
-height: 186px;
-left: 24px;
-top: 707px;
+width: 688px;
+height: 133px;
+left: 40px;
+top: 1001px;
 
 /* White */
 background: #FFFFFF;
+/* shadow */
 box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 border-radius: 32px;
 }
