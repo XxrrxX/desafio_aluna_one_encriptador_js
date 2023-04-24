@@ -412,4 +412,16 @@ top: 76px;
 
 background: #E9ECF8;
 }
+#exclm{
+/* bi:exclamation-circle-fill */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
 }
