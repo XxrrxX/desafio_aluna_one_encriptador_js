@@ -133,20 +133,21 @@ top: 885px;
 .txt2 {
 /* Ingrese el texto aqui */
 
-color: #0A3871;
 position: absolute;
-width: 577px;
+width: 688px;
 height: 48px;
-left: 240px;
-top: 168px;
-background: #F3F5FC;
-border:none;
+left: 40px;
+top: 240px;
+
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
-aline-height: 150%;
+line-height: 150%;
+/* identical to box height, or 48px */
 
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
 }
 
 #rectangle1 {
