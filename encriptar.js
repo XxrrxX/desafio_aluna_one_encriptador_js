@@ -29,7 +29,7 @@ StringE = letra;
 
 }
 
-console.log(StringE);
+document.write(StringE);
 
 });
 
