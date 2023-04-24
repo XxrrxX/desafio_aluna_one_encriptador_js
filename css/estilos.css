@@ -218,7 +218,7 @@ text-aling:center;
 }
 
 /*celular 1*/
-@media (max-width: 768px){
+@media (max-width: 375px){
  
 body{
 /* Encriptador - 1 Celular */
