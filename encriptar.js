@@ -23,9 +23,10 @@ StringE =  "ober";
 else if (letra == "u"){
 StringE = "ufat";
 
-}else{
-
-StringE = letra;
+}else {
+StringE = letra;   
+}
+var s = s + StringE;
 
 }
 
@@ -33,6 +34,6 @@ StringE = letra;
 
 });
 
-document.write(StringE);
+document.write(s);
 
 }
