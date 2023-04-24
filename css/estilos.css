@@ -356,4 +356,15 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+#rectangle1{
+/* Rectangle 5 */
+
+position: absolute;
+width: 31px;
+height: 48px;
+left: 40px;
+top: 76px;
+
+background: #E9ECF8;
+}
 }
