@@ -29,7 +29,7 @@ StringE = letra;
 var s = s + StringE;
 
 });
-
+alert("1");
 alert(s);
 var p = document.getElementById("p1");
 p.innerHTML=s;
