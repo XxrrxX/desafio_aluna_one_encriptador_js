@@ -205,7 +205,28 @@ text-aling:center;
 
 /*celular 1*/
 @media (min-width: 768px){
+#frame5{
+/* Frame 5 */
 
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+position: absolute;
+width: 688px;
+height: 133px;
+left: 40px;
+top: 1001px;
+
+/* White */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
 
 
 }
