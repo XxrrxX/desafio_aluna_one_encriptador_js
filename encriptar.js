@@ -2,7 +2,6 @@ function encriptar(){
 var TE=document.getElementById("txtE").value;
 let SplitTE = TE.split('');
 var StringE;
-var letra;
 SplitTE.forEach(letra => {
 
 if (letra == "e"){
@@ -29,7 +28,7 @@ StringE = letra;
 var s = s + StringE;
 
 });
-alert("1");
+alert(letra);
 alert(s);
 var p = document.getElementById("p1");
 p.innerHTML=s;
