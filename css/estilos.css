@@ -285,12 +285,13 @@ top: 836px;
 }
 .txt2{
 /* Ingrese el texto aqui */
+/* Ingrese el texto aqui */
 
 position: absolute;
-width: 688px;
+width: 343px;
 height: 48px;
-left: 40px;
-top: 240px;
+left: 16px;
+top: 152px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -301,5 +302,6 @@ line-height: 150%;
 
 /* Dark blue/dark-blue-300 */
 color: #0A3871;
+
 }
 }
