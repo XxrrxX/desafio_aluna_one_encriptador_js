@@ -33,9 +33,6 @@ StringE = letra;
 
 });
 
-var frame5 = getElementByID("frame5");
-var p = createElement('<p id="p1"></p>');
-p.InnerHTML = StringE;
-frame5.appendChild(p);
+document.write(StringE);
 
 }
