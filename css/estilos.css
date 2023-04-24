@@ -302,5 +302,21 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
+#frm3{
+/* Frame 3 */
 
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 688px;
+height: 67px;
+left: 40px;
+top: 870px;
+
+}
 }
