@@ -30,6 +30,7 @@ var s = s + StringE;
 
 });
 
-document.write(s);
+var p = document.getElementById("p1");
+p.innerHTML=StringE;
 
 }
