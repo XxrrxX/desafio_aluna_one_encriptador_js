@@ -2,7 +2,7 @@ function encriptar(){
 var TE=document.getElementById("txtE").value;
 let SplitTE = TE.split('');
 var StringE;
-
+var letra;
 SplitTE.forEach(letra => {
 
 if (letra == "e"){
