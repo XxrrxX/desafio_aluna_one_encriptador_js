@@ -33,6 +33,9 @@ StringE = letra;
 
 });
 
-return(<p id="p1">StringE</p>);
-
+$(document).redy(function(){
+vat htmlinsert ='';
+htmlinsert = '<p id="p1">'+StringE+'</p>)';
+$('#').Html(htmlinsert);
+});
 }
