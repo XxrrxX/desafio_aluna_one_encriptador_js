@@ -220,6 +220,7 @@ text-aling:center;
 
 /*celular 1*/
 @media (min-width: 768px){
+
 #frame5{
 /* Frame 5 */
 
@@ -241,6 +242,30 @@ background: #FFFFFF;
 /* shadow */
 box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 border-radius: 32px;
+}
+#p1{
+/* Ningún mensaje fue encontrado */
+
+width: 624px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+text-align: center;
+
+/* Gray/gray-500 */
+color: #343A40;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 }
 
 
