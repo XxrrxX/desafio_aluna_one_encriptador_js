@@ -278,6 +278,29 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
+#p2{
+/* Ingresa el texto que desees encriptar o desencriptar. */
 
+width: 624px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+/* Gray/gray-400 */
+color: #495057;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
 
 }
