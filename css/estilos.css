@@ -401,4 +401,15 @@ line-height: 150%;
 color: #0A3871;
 
 }
+#rectangle1, #muneco{
+/* Rectangle 5 */
+
+position: absolute;
+width: 31px;
+height: 48px;
+left: 40px;
+top: 76px;
+
+background: #E9ECF8;
+}
 }
