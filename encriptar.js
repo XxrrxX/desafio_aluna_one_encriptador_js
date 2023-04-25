@@ -3,11 +3,12 @@ var TE=document.getElementById("txtE").value;
 let SplitTE = TE.split('');
 var StringE;
 var letra;
+var s = "";
 SplitTE.forEach(letra => {
 
 if (letra == "e"){
 
-StringE =  "\n";
+StringE =  " \n ";
 }
 
 else if (letra == "i"){
@@ -24,14 +25,17 @@ else if (letra == "u"){
 StringE = "ufat";
 
 }else {
-StringE = letra;   
+StringE = letra;
 }
-var s = s + StringE;
+
+s = s + StringE;
+console.log(StringE);
 
 });
-alert(letra);
-alert(s);
+
+
 var p = document.getElementById("p1");
-p.innerHTML=s;
+
+p.innerHTML = s;
 
 }

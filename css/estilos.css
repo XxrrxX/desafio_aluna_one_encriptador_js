@@ -1,3 +1,4 @@
+
 body {
 /* Encriptador - 1 Desktop */
 position: relative;
@@ -19,7 +20,7 @@ gap: 16px;
 position: absolute;
 width: 336px;
 height: 122px;
-left: 1032px;
+left: 8%;
 top: 619px;
 }
 #logo {
@@ -171,7 +172,7 @@ color: #0A3871;
 position: absolute;
 width: 400px;
 height: 944px;
-left: 1000px;
+left: 90%;
 top: 40px;
 /* White */
 background: #FFFFFF;
@@ -218,10 +219,9 @@ text-aling:center;
 
 }
 
-/*celular 1*/
-@media (min-width: 768px){
-    
-body{
+@media (max-width: 768px) {
+
+body {
 /* Encriptador - 1 Tablet */
 
 position: relative;
@@ -254,6 +254,7 @@ background: #FFFFFF;
 box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 border-radius: 32px;
 }
+
 #p1{
 /* Ningún mensaje fue encontrado */
 
@@ -278,6 +279,7 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
+
 #p2{
 /* Ingresa el texto que desees encriptar o desencriptar. */
 
@@ -302,6 +304,7 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
+
 #frm3{
 /* Frame 3 */
 
@@ -317,8 +320,8 @@ width: 688px;
 height: 67px;
 left: 40px;
 top: 870px;
-
 }
+
 .encriptar{
 /* Button */
 
@@ -341,6 +344,7 @@ flex: none;
 order: 0;
 flex-grow: 1;
 }
+
 .desencriptar{
 /* Button */
 
@@ -365,6 +369,7 @@ flex: none;
 order: 1;
 flex-grow: 1;
 }
+
 #frm1{
 /* Frame 1 */
 
@@ -381,6 +386,7 @@ height: 18px;
 left: 40px;
 top: 836px;
 }
+
 #txt2{
 /* Ingrese el texto aqui */
 
@@ -399,8 +405,8 @@ line-height: 150%;
 
 /* Dark blue/dark-blue-300 */
 color: #0A3871;
-
 }
+
 #rectangle1, #muñeco{
 /* Rectangle 5 */
 
@@ -412,6 +418,7 @@ top: 76px;
 
 background: #E9ECF8;
 }
+
 #exclm{
 /* bi:exclamation-circle-fill */
 
@@ -424,6 +431,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
 #txt1{
 /* Solo letras minúsculas y sin acentos */
 
@@ -440,10 +448,14 @@ line-height: 150%;
 /* Gray/gray-400 */
 color: #495057;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
 }
+
+
+
 }
+
+
