@@ -21,7 +21,7 @@ encriptar.addEventListener("click", () => {
 
 //button to decrypt
 desencriptar.addEventListener("click", () => {
-  let message = document.querySelector(".message").value;
+  let message = document.querySelector("message").value;
   let text = message.replace(/enter/gim, "e");
   text = text.replace(/ober/gim, "o");
   text = text.replace(/imes/gim, "i");
