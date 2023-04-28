@@ -1,22 +1,22 @@
-const encriptar = document.querySelector(".btn1");
-const desencriptar = document.querySelector(".btn2");
-const copy = document.querySelector(".copy");
+const encriptar = document.querySelector("btn1");
+const desencriptar = document.querySelector("btn2");
+const copy = document.querySelector("copy");
 
 //buttons to encrypt
 encriptar.addEventListener("click", () => {
-  let message = document.querySelector(".message").value;
+  let message = document.querySelector("message").value;
   let text = message.replace(/e/gim, "enter");
   text = text.replace(/o/gim, "ober");
   text = text.replace(/i/gim, "imes");
   text = text.replace(/a/gim, "ai");
   text = text.replace(/u/gim, "ufat");
 
-  const insert = document.querySelector(".encriptador-all__result");
+  const insert = document.querySelector("encriptador-all__result");
   insert.innerHTML = text;
-  document.querySelector(".message").value = "";
-  document.querySelector(".encriptador-all__search").style.display = "none";
-  document.querySelector(".copy").style.display = "block";
-  document.querySelector(".encriptador-all__result").style.display = "block";
+  document.querySelector("message").value = "";
+  document.querySelector("encriptador-all__search").style.display = "none";
+  document.querySelector("copy").style.display = "block";
+  document.querySelector("encriptador-all__result").style.display = "block";
 });
 
 //button to decrypt
@@ -28,22 +28,22 @@ desencriptar.addEventListener("click", () => {
   text = text.replace(/ai/gim, "a");
   text = text.replace(/ufat/gim, "u");
 
-  const insert = document.querySelector(".encriptador-all__result");
+  const insert = document.querySelector("encriptador-all__result");
   insert.textContent = text;
-  document.querySelector(".message").value = "";
-  document.querySelector(".encriptador-all__search").style.display = "none";
-  document.querySelector(".copy").style.display = "block";
-  document.querySelector(".encriptador-all__result").style.display = "block";
+  document.querySelector("message").value = "";
+  document.querySelector("encriptador-all__search").style.display = "none";
+  document.querySelector("copy").style.display = "block";
+  document.querySelector("encriptador-all__result").style.display = "block";
 });
 
 //button to copy
 copy.addEventListener("click", () => {
-  const message = document.querySelector(".encriptador-all__result");
+  const message = document.querySelector("encriptador-all__result");
   console.log(message.textContent);
-  const insert = document.querySelector(".message");
+  const insert = document.querySelector("message");
   insert.value = message.textContent;
-  document.querySelector(".encriptador-all__result").innerHTML = "";
-  document.querySelector(".copy").style.display = "none";
-  document.querySelector(".encriptador-all__result").style.display = "none";
-  document.querySelector(".encriptador-all__search").style.display = "block";
+  document.querySelector("encriptador-all__result").innerHTML = "";
+  document.querySelector("copy").style.display = "none";
+  document.querySelector("encriptador-all__result").style.display = "none";
+  document.querySelector("encriptador-all__search").style.display = "block";
 });
