@@ -1,5 +1,5 @@
 const encriptar = document.querySelector(".btn1");
-const desencriptart = document.querySelector(".btn2");
+const desencriptar = document.querySelector(".btn2");
 const copy = document.querySelector(".copy");
 
 //buttons to encrypt
