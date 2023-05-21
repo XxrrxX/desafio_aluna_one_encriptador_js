@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/estilos.css" />
-  </head>
-  <body>
-    <main class="encriptador">
-      <div class="encriptador-get">
-        <img src="assets/logo.png" />
-        <div class="encriptador-get__input">
-          <textarea
-            class="message"
-            placeholder="Ingrese el texto aquí"
-          ></textarea>
-        </div>
-        <div class="encriptador-get__buttons">
-          <div class="alert">
-            <img src="assets/vector.png" />
-            <span>Solo letras minúsculas y sin acentos</span>
-          </div>
-          <div class="bts">
-            <button class="btn1">Encriptar</button>
-            <button class="btn2">Desencriptar</button>
-          </div>
-        </div>
-      </div>
-      <div class="encriptadorr-all">
-        <textarea class="encriptador__result"></textarea>
-        <div class="encriptador-all__copy">
-          <button class="copy">Copiar</button>
-        </div>
-        <div class="encriptador-all__search">
-          <img src="assets/search.png" />
-        </div>
-      </div>
-    </main>
-    <script src="js/index.js"></script>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+<main class="encriptador">
+<div class="encriptador-get">
+<img src="assets/logo.png">
+
+<div class="encriptador-get__input">
+<textarea id="M" class="message" placeholder="Ingrese el texto aquí"></textarea>
+</div>
+
+<div class="encriptador-get__buttons">
+<div class="alert">
+<img src="assets/vector.png">
+<span>Solo letras minúsculas y sin acentos</span>
+</div>
+
+<div class="bts">
+<button class="btn1" onclick="Encriptar()">Encriptar</button>
+<button class="btn2" onclick="Desencriptar()">Desencriptar</button>
+</div>
+
+</div>
+</div>
+
+<div class="encriptador-all">
+<textarea id="ER" class="encriptador__result"></textarea>
+<div class="encriptador-all__copy">
+<button id="cop" onclick="copiar()" class="copy">Copiar</button>
+</div>
+<div id="ESAll" class="encriptador-all__search">
+<img src="assets/search.png">
+</div>
+</div>
+
+</main>
+<script src="js/index.js"></script>
+</body>
 </html>
