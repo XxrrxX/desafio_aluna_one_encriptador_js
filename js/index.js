@@ -46,3 +46,4 @@ function copiar(){
   document.getElementById("ESAll").style.display = "block";
 }
 
+//coded by XxrrxX
